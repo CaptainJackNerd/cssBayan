@@ -107,6 +107,10 @@ li input[type="radio"]:checked ~ label span {
     color: rgb(249, 32, 86);
 }
 
+#accordion .meme:active span {
+    filter: drop-shadow(0 0 black);
+}
+
 @media screen and (hover: hover) {
 
     #accordion li label span {
