@@ -94,6 +94,10 @@ li input[type="radio"]:checked ~ label span {
     transform: rotate(45deg);
 }
 
+#accordion .meme:active img {
+    filter: drop-shadow(5px 5px 10px #666) saturate(150%);
+}
+
 @media screen and (hover: hover) {
 
     #accordion li label span {
