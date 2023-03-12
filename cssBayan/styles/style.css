@@ -23,6 +23,10 @@ h1 {
     margin-top: 1%;
 }
 
+h2 {
+    transition: 0.5s;
+}
+
 #accordion {
     margin: 1% 5%;
     min-width: 80%;
@@ -96,7 +100,11 @@ li input[type="radio"]:checked ~ label span {
 }
 
 #accordion .meme:active img {
-    filter: grayscale(100%);
+    filter: saturate(150%);
+}
+
+#accordion .meme:active h2 {
+    color: rgb(249, 32, 86);
 }
 
 @media screen and (hover: hover) {
