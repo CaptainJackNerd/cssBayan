@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: white;
     border: 0.1rem solid;
     border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
@@ -25,7 +25,7 @@ h1 {
 
 #accordion {
     margin: 1% 5%;
-    min-width: 70%;
+    min-width: 80%;
 }
 
 #accordion li {
@@ -45,7 +45,7 @@ h1 {
     font-weight: 500;
     cursor: pointer;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: 0.2s;
 }
 
@@ -123,8 +123,16 @@ li input[type="radio"]:checked ~ label span {
 
 @media (max-width: 1920px) {
 
+    h1 {
+        font-size: 2.5rem;
+    }
+
     #accordion {
         min-width: 70%;
+    }
+
+    #accordion li label {
+        font-size: 1.2rem;
     }
 
     #accordion .content img {
@@ -158,10 +166,6 @@ li input[type="radio"]:checked ~ label span {
     #accordion li label {
         font-size: 0.8rem;
         cursor: default;
-    }
-
-    #accordion li label span {
-        opacity: 1;
     }
 
 }
